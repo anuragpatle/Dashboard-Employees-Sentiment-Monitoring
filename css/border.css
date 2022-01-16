@@ -3,7 +3,6 @@
   text-align: center;
   font-size: 30px;
   font-family: verdana;
-  margin: 5px;
 }
 
 .card-border::before,
@@ -50,6 +49,6 @@ span::after {
 .card-border:hover::after,
 .card-border:hover span::before,
 .card-border:hover span::after  {
-	width: calc( 180px / 2);
-	height: calc( 50px / 2);
+	width: calc( 250px);
+	height: calc( 170px);
 }
