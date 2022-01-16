@@ -1,10 +1,23 @@
 .mySlides {
   display: none;
+  margin: auto;
 }
+
+.face-image {
+    float: left;
+}
+
+.face-image-details {
+    float: left;
+    float: left;
+    padding: 13px 33px;
+}
+
 .mySlides img {
   vertical-align: middle;
   width: 250px;
   height: 200px;
+  border:1px dashed DarkSlateBlue;;
 }
 
 /* Slideshow container */
@@ -14,36 +27,10 @@
   margin: auto;
 }
 
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
 /* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
+
 
 .active {
   background-color: #717171;
@@ -75,9 +62,30 @@
   }
 }
 
+.ele {
+    animation: 2s fadeIn;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+  
+  .ele:hover {
+    background-color: #123;
+  }
+  
+  @keyframes fadeIn {
+    99% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {
     font-size: 11px;
   }
 }
+
+
