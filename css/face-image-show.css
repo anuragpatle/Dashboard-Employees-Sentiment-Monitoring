@@ -16,7 +16,9 @@
 .mySlides img {
   vertical-align: middle;
   width: 250px;
-  height: 200px;
+  height: 260px;
+  padding: 2px;
+  margin: 5px;
   border:1px dashed DarkSlateBlue;;
 }
 
