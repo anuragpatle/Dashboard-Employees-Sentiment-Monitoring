@@ -20,7 +20,7 @@ async function showSlides() {
 
   //   console.log("function end");
 
-  setTimeout(showSlides, getRandomNumberBetween(0, 4) * 1000); // Change image every 2 seconds
+  setTimeout(showSlides, getRandomNumberBetween(4, 8) * 1000); // Change image every 2 seconds
 }
 
 function sleep(ms) {
